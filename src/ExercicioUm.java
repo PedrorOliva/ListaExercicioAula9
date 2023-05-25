@@ -68,6 +68,7 @@ public class ExercicioUm {
       System.out.println("FGTS (11%)\t\t\t\t\t" + " : R$" + descontoFgts);
       System.out.println("Total de descontos\t\t\t" + " : R$" + descontos);
       System.out.println("Salário Liquido\t\t\t\t" + " : R$" + salarioLiquido);
+
     } else if(salarioBruto > 2500) {
       impostoRenda = 20.0;
       descontoImposto = salarioBruto * (impostoRenda / 100);
